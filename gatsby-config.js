@@ -7,7 +7,7 @@ module.exports = {
   },
   plugins: [
     {
-      resoleve: "gatsby-plugin-typescript",
+      resoleve: 'gatsby-plugin-typescript',
       options: { isTsx: true, allExtensions: true },
     },
     `gatsby-plugin-image`,
