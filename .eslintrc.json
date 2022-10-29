@@ -22,6 +22,9 @@
   "plugins": ["react", "@typescript-eslint"],
   "ignorePatterns": ["dist/", "node_modules/"],
   "rules": {
-    "prettier/prettier": "off"
+    "prettier/prettier": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off"
   }
 }
