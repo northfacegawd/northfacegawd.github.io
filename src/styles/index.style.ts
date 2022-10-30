@@ -68,18 +68,27 @@ export const RowRight = styled.div`
 export const WorkName = styled.h3`
   font-size: 2rem;
   margin: 0 0 1rem;
+  @media (max-width: 900px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const WorkTitle = styled.h5`
   font-size: 1.3rem;
   margin: 0 0 0.5rem;
   color: #333;
+  @media (max-width: 900px) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const WorkDesc = styled.p`
   margin: 0 0 1rem;
   font-size: 1.1rem;
   line-height: 1.4;
+  @media (max-width: 900px) {
+    font-size: 1rem;
+  }
 `;
 
 export const WorkList = styled.ul`
@@ -97,6 +106,9 @@ export const WorkList = styled.ul`
       content: '•';
       color: var(--primary-color-1000);
     }
+  }
+  @media (max-width: 900px) {
+    font-size: 1rem;
   }
 `;
 
