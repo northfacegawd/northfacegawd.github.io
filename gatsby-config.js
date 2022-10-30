@@ -3,6 +3,7 @@ module.exports = {
     title: `이용준 - 이력서`,
     description: `이력서 및 경력을 기술해 놓은 문서입니다.`,
     author: `@gatsbyjs`,
+    siteUrl: `https://my-website-link.com`,
   },
   plugins: [
     {
@@ -28,6 +29,14 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-canonical-urls',
+      options: {
+        siteUrl: '<https://my-website.com/>',
+        stripQueryString: true,
+      },
+    },
+    'gatsby-plugin-sitemap',
     `gatsby-plugin-react-helmet`,
     // {
     //   resolve: `gatsby-source-filesystem`,
