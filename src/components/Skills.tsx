@@ -49,6 +49,24 @@ export default function Skils() {
       </Other>
       <Other>
         <WorkName>
+          Web<Mark>.</Mark>
+        </WorkName>
+        <WorkList>
+          <li>
+            Internet Explorer, Safari를 비롯한 다양한 크로스 부라우징 경험이
+            있습니다.
+          </li>
+          <li>
+            각 HTML태그가 무슨 의미를 갖는지 알고 적절히 배치할 수 있습니다.
+          </li>
+          <li>
+            CSR, SSR의 개념을 및 장단점을 파악하여 적절하게 사용할 수 있습니다.
+          </li>
+          <li>SEO향상을 위해 메타태그를 적절하게 활용할 수 있습니다.</li>
+        </WorkList>
+      </Other>
+      <Other>
+        <WorkName>
           JavaScript & TypeScript<Mark>.</Mark>
         </WorkName>
         <WorkList>
@@ -84,6 +102,14 @@ export default function Skils() {
           <li>
             getServerSideProps, getStaticProps, getStaticPaths등 서버 함수에
             대해서 이해하고 적절한 상황에서 사용할 수 있습니다.
+          </li>
+          <li>
+            Lazy Hydration 및 import를 통해 더 빠른 초기 로딩을 구현할 수
+            있습니다.
+          </li>
+          <li>
+            Server Side Rendering과 Static Site Generation 방식의 페이지 구현을
+            적절하게 활요할 수 있습니다.
           </li>
         </WorkList>
       </Other>

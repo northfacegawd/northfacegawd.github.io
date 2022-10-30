@@ -36,8 +36,8 @@ export default function WorkExperience() {
               Learn & Earn<Mark>.</Mark>
             </WorkName>
             <span className="time">
-              <time dateTime="2021-11">2022. 06</time> -{' '}
-              <time dateTime="2021-12">2021. 07</time>
+              <time dateTime="2022-06">2022. 06</time> -{' '}
+              <time dateTime="2022-07">2022. 07</time>
             </span>
             <WorkTitle>
               Description<Mark>.</Mark>
@@ -138,7 +138,7 @@ export default function WorkExperience() {
               ProBit Global 웹 개발<Mark>.</Mark>
             </WorkName>
             <span className="time">
-              <time dateTime="2021-6">2021. 06</time> - 현재
+              <time dateTime="2021-06">2021. 06</time> - 현재
             </span>
             <WorkTitle>
               Description<Mark>.</Mark>
@@ -175,6 +175,7 @@ export default function WorkExperience() {
                 안드로이드, IOS 앱에서 로그인 연동을 위해 웹뷰 작업 및 라우트
                 가드 설정
               </li>
+              <li>2차 인증 방식 중 U2F 토큰을 WebAuthn으로 마이그레이션</li>
               <li>
                 Moment.js 에서 Day.js로 마이그레이션 하여 번들 사이즈 축소
               </li>
@@ -192,8 +193,8 @@ export default function WorkExperience() {
               Help Center<Mark>.</Mark>
             </WorkName>
             <span className="time">
-              <time dateTime="2021-11">2021. 01</time> -{' '}
-              <time dateTime="2021-12">2021. 06</time>
+              <time dateTime="2021-01">2021. 01</time> -{' '}
+              <time dateTime="2021-06">2021. 06</time>
             </span>
             <WorkTitle>
               Description<Mark>.</Mark>
@@ -232,7 +233,7 @@ export default function WorkExperience() {
               Cody On<Mark>.</Mark>
             </WorkName>
             <span className="time">
-              <time dateTime="2021-11">2022. 10</time> - 현재 진행
+              <time dateTime="2022-10">2022. 10</time> - 현재 진행
             </span>
             <WorkTitle>
               Description<Mark>.</Mark>
@@ -261,7 +262,8 @@ export default function WorkExperience() {
               Tech Stack<Mark>.</Mark>
             </WorkTitle>
             <WorkDesc>
-              TypeScript, React, NextJS, TailwindCss, React Query, Jest, Vercel
+              TypeScript, React, NextJS, TailwindCss, React Query, Prisma,
+              Postgresql, Jest, Vercel
             </WorkDesc>
           </Project>
         </RowRight>
