@@ -3,7 +3,7 @@ module.exports = {
     title: `이용준 - 이력서`,
     description: `이력서 및 경력을 기술해 놓은 문서입니다.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://my-website-link.com`,
+    siteUrl: `https://northfacegawd.github.io/`,
   },
   plugins: [
     {
@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: '<https://my-website.com/>',
+        siteUrl: '`https://northfacegawd.github.io/`',
         stripQueryString: true,
       },
     },
