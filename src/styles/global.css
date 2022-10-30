@@ -37,6 +37,25 @@ body::before {
   );
 }
 
+a,
+a:visited {
+  transition: color 200ms ease-out;
+  color: var(--primary-color-1000);
+}
+
+a:hover {
+  color: var(--primary-color-500);
+}
+
+.role {
+  display: block;
+}
+
+.time {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
 @media (max-width: 900px) {
   body {
     font-size: 14px;
