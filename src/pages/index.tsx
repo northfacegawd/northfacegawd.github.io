@@ -9,7 +9,10 @@ import {
   MainTitle,
   Mark,
   Section,
+  SubTitle,
+  WorkList,
 } from '../styles/index.style';
+import Anchor from '../components/Anchor';
 
 const IndexPage: FC = function () {
   return (
@@ -44,6 +47,19 @@ const IndexPage: FC = function () {
         <WorkExperience />
         <Skils />
         <OtherWorkExperience />
+        <Section>
+          <SubTitle>
+            Contact<Mark>.</Mark>
+          </SubTitle>
+          <WorkList>
+            <li>
+              <Anchor href="mailto:chuck5732590@gmail.com">이메일</Anchor>
+            </li>
+            <li>
+              <Anchor href="https://github.com/northfacegawd">깃허브</Anchor>
+            </li>
+          </WorkList>
+        </Section>
       </MainLayout>
     </>
   );
