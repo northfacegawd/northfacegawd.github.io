@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Mark,
   Project,
@@ -224,6 +225,43 @@ export default function WorkExperience() {
             <WorkDesc>
               TypeScript, React, Redux, Redux Saga, styled-components, Antd,
               i18next, react-18next
+            </WorkDesc>
+          </Project>
+          <Project>
+            <WorkName>
+              Cody On<Mark>.</Mark>
+            </WorkName>
+            <span className="time">
+              <time dateTime="2021-11">2022. 10</time> - 현재 진행
+            </span>
+            <WorkTitle>
+              Description<Mark>.</Mark>
+            </WorkTitle>
+            <WorkDesc>
+              사용자의 패션 MBTI를 분석하고 그에따른 컬렉션 모음, 패션 명함을
+              제작하는 웹 서비스인 코디은을 개발하고 있습니다. 창업을 염두해
+              두고 진행하고 있지는 않으며 사이드 프로젝트로서 본업과는
+              무관합니다.
+            </WorkDesc>
+            <WorkTitle>
+              What did I do<Mark>.</Mark>
+            </WorkTitle>
+            <WorkList>
+              <li>
+                프론트엔드 기술환경 구성 및 명함 UI 개발 및 이미지로 다운로드
+                기능 개발
+              </li>
+              <li>소셜 로그인 기능 개발</li>
+              <li>React기반 컴포넌트 계층 구조 디자인</li>
+              <li>
+                고려대, 중앙대 학부생들과 함께 협업하여 기획, 디자인에 참여
+              </li>
+            </WorkList>
+            <WorkTitle>
+              Tech Stack<Mark>.</Mark>
+            </WorkTitle>
+            <WorkDesc>
+              TypeScript, React, NextJS, TailwindCss, Jest, Vercel
             </WorkDesc>
           </Project>
         </RowRight>
