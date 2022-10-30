@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
 import { Helmet } from 'react-helmet';
+import Skils from '../components/Skills';
+import OtherWorkExperience from '../components/OtherWorkExperience';
 import WorkExperience from '../components/WorkExperience';
 import {
   MainDesc,
@@ -40,6 +42,8 @@ const IndexPage: FC = function () {
           </MainDesc>
         </Section>
         <WorkExperience />
+        <Skils />
+        <OtherWorkExperience />
       </MainLayout>
     </>
   );

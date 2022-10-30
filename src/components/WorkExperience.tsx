@@ -261,7 +261,7 @@ export default function WorkExperience() {
               Tech Stack<Mark>.</Mark>
             </WorkTitle>
             <WorkDesc>
-              TypeScript, React, NextJS, TailwindCss, Jest, Vercel
+              TypeScript, React, NextJS, TailwindCss, React Query, Jest, Vercel
             </WorkDesc>
           </Project>
         </RowRight>

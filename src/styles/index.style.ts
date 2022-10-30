@@ -106,3 +106,8 @@ export const Project = styled.div`
   }
   padding: 1.5rem 0;
 `;
+
+export const Other = styled.div`
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--primary-color-500);
+`;
