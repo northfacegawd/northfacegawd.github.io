@@ -53,7 +53,7 @@ export default function Skils() {
         </WorkName>
         <WorkList>
           <li>
-            Internet Explorer, Safari를 비롯한 다양한 크로스 부라우징 경험이
+            Chrome, FireFox, Safari를 비롯한 다양한 크로스 브라우징 경험이
             있습니다.
           </li>
           <li>
