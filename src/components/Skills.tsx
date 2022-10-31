@@ -109,7 +109,7 @@ export default function Skils() {
           </li>
           <li>
             Server Side Rendering과 Static Site Generation 방식의 페이지 구현을
-            적절하게 활요할 수 있습니다.
+            적절하게 활용할 수 있습니다.
           </li>
         </WorkList>
       </Other>
@@ -123,7 +123,7 @@ export default function Skils() {
             공통된 로직 및 기능을 service, pipe, directive등으로 분리 및
             추상화하여 사용할 수 있습니다.
           </li>
-          <li>Rxjs를 사용하여 비동기 로직을 수월학세 처리할 수 있습니다.</li>
+          <li>Rxjs를 사용하여 비동기 로직을 수월하게 처리할 수 있습니다.</li>
           <li>Testing Library를 사용하여 테스트코드를 작성할 수 있습니다.</li>
         </WorkList>
       </Other>

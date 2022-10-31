@@ -240,7 +240,7 @@ export default function WorkExperience() {
             </WorkTitle>
             <WorkDesc>
               사용자의 패션 MBTI를 분석하고 그에따른 컬렉션 모음, 패션 명함을
-              제작하는 웹 서비스인 코디은을 개발하고 있습니다. 창업을 염두해
+              제작하는 웹 서비스인 코디온을 개발하고 있습니다. 창업을 염두해
               두고 진행하고 있지는 않으며 사이드 프로젝트로서 본업과는
               무관합니다.
             </WorkDesc>
