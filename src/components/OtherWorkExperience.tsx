@@ -8,7 +8,6 @@ import {
   WorkList,
   WorkDesc,
 } from '../styles/index.style';
-import Anchor from './Anchor';
 
 export default function OtherWorkExperience() {
   return (
@@ -16,17 +15,6 @@ export default function OtherWorkExperience() {
       <SubTitle>
         Other Experiences<Mark>.</Mark>
       </SubTitle>
-      <Other>
-        <WorkName>
-          Blog<Mark>.</Mark>
-        </WorkName>
-        <WorkDesc>
-          <Anchor href="https://www.yongjun-blog.com/">ZUN</Anchor>
-          이라는 이름의 개인 블로그를 운영하고 있습니다. 아직 개발단계에 있으며,
-          제가 새롭게 배우게 된 내용 등을 글로 작성해 공유 할 예정입니다.
-          블로그는 NextJS와 TailwindCss, Vercel을 사용해 구현했습니다
-        </WorkDesc>
-      </Other>
       <Other>
         <WorkName>
           교육이력<Mark>.</Mark>
