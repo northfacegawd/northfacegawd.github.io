@@ -56,6 +56,10 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+.checked {
+  color: var(--primary-color-1000);
+}
+
 @media (max-width: 900px) {
   body {
     font-size: 14px;

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MainLayout = styled.div`
-  max-width: 50rem;
+  max-width: 65rem;
   margin: auto;
   width: 100%;
 `;
@@ -11,19 +11,19 @@ export const Section = styled.section`
 `;
 
 export const MainTitle = styled.h1`
-  font-size: 4rem;
+  font-size: 3.6rem;
   margin: 0.65em 0;
   line-height: 1.1;
   @media (max-width: 900px) {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 `;
 
 export const SubTitle = styled.h2`
-  font-size: 4rem;
-  margin: 4rem 0 2rem;
+  font-size: 3.2rem;
+  margin: 2.5rem 0 1rem;
   @media (max-width: 900px) {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
 `;
 
@@ -44,7 +44,10 @@ export const MainDesc = styled.p`
 export const Row = styled.div`
   display: flex;
   padding: 3rem 0;
-  border-bottom: 1px solid var(--primary-color-500);
+  &:last-of-type {
+    border-bottom: 1px solid var(--primary-color-500);
+  }
+
   @media (max-width: 900px) {
     flex-direction: column;
   }
@@ -120,6 +123,16 @@ export const Project = styled.div`
 `;
 
 export const Other = styled.div`
-  padding: 3rem 0;
+  padding: 2rem 0;
   border-bottom: 1px solid var(--primary-color-500);
+  &.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  @media (max-width: 700px) {
+    &.skills {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 `;
